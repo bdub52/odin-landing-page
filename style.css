@@ -1,4 +1,123 @@
+.sectionOne {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logoImg {
+    width: 5.5em;
+}
+
+.links {
+    display: flex;
+    margin: 10px;
+    list-style-type: none;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    /* border: 3px solid mediumseagreen; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.webDesc {
+   /* border: 3px solid mediumseagreen; */
+   margin: 20px;
+   padding: 20px;
+   width: 500px;
+   align-items: center;
+}
+
 img {
     height: auto;
-    width: 350px;
+    width: 500px;
 }
+
+.name,
+a,
+.webTitle,
+.webText {
+    color: #E5E7EB
+}
+
+.fourItems {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.headerTwo {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.cityImg,
+.serverImg,
+.medicalImg,
+.constructionImg {
+    width: 15em;
+    height: 14em;
+}
+
+.img-text {
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.sectionThree {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.sectionFour {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.containerTwo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
